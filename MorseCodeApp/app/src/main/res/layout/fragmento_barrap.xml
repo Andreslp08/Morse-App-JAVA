@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:id="@+id/layoutContenedor"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/layoutTitulo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#252525">
+        <Button
+            android:id="@+id/atras"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:foreground="@drawable/icono_volver"
+            android:background="@drawable/ripple_default">
+        </Button>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp"
+                android:fontFamily="@font/impact"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginVertical="10dp"
+                android:textAlignment="center"
+                android:text="Morse Code">
+            </TextView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/config"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:foreground="@drawable/icono_ajustes"
+            android:background="@drawable/ripple_default">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
